@@ -12,6 +12,7 @@ a{
     display: block;
     text-decoration: none;
 }
+<<<<<<< HEAD
 .container{
 <<<<<<< HEAD
     max-width: ;
@@ -207,3 +208,5 @@ header{
 }
 
 >>>>>>> cdd1433a2077d4f21e60fa7e5cd80c4bc6f9c642
+.container
+>>>>>>> parent of 8bed497... error while working on mobile
