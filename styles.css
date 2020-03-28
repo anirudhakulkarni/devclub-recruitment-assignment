@@ -12,4 +12,6 @@ a{
     display: block;
     text-decoration: none;
 }
-.container
+.container{
+    max-width: ;
+}
