@@ -14,10 +14,6 @@ a{
 }
 <<<<<<< HEAD
 .container{
-<<<<<<< HEAD
-    max-width: ;
-}
-=======
 	max-width: 98rem;
 	margin: 0 auto;
 	padding: 0 2.2rem;
@@ -206,8 +202,3 @@ header{
 	}
 	.cta-link
 }
-
->>>>>>> cdd1433a2077d4f21e60fa7e5cd80c4bc6f9c642
-=======
-.container
->>>>>>> parent of 8bed497... error while working on mobile
