@@ -26,7 +26,7 @@ header{
 	top: 0;
 	z-index: 1400;
 	width: 100%;
-	height: 4.4rem;
+	height: 5.4rem;
 	background-color: rgba(0,0,0,0.8);
 	backdrop-filter : blur(2rem);
 
@@ -37,7 +37,8 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0 -1rem;
+	margin: 0 -15rem;
+	
 
 }
 
@@ -46,9 +47,10 @@ header{
 
 }
 .nav-link{
-	font-size: 1.4rem;
+	font-size: 1.7rem;
 	color: #fff;
 	padding: 0 1rem;
+	padding-top: .5rem;
 	transition: opacity .5s;
 
 }
@@ -62,6 +64,7 @@ header{
 
 	background: url('images/icons/apple.svg') center;
 	background-repeat: no-repeat;
+	padding-top: .5rem;
 
 }
 
@@ -70,6 +73,7 @@ header{
 	height: 4.4rem;
 	background: url('images/icons/search.svg') center;
 	background-repeat: no-repeat;
+	padding-top: .5rem;
 
 }
 .nav-link-bag{
@@ -77,13 +81,14 @@ header{
 	height: 4.4rem;
 	background: url('images/icons/bag.svg') center;
 	background-repeat: no-repeat;
+	padding-top: .5rem;
 
 }
 .iphone-11-pro{
 	
 	height: 69.2rem;
 	
-	background: url('videos/headphone.mp4');
+	background: url('images/hero/cover2.jpg');Z
 	margin-top: 4.4rem;
 	
 
@@ -93,12 +98,13 @@ header{
 
 .title{
 	color: #fff;
-	text-align: center;
-	padding-top: 5.5rem;
+
+	padding-top: 32rem;
+	padding-left: 55rem;
 
 }
 .title-heading{
-	font-size: 5.6rem;
+	font-size: 12.6rem;
 	line-height: 1.07143;
 	letter-spacing: -.005rem;
 
@@ -121,7 +127,8 @@ header{
 
 .cta{
 	text-align: center;
-	margin-top: 1.8rem;
+	margin-top: 1.8rem;	padding-top: 0rem;
+	padding-left: 30rem;
 
 }
 .cta-link{
