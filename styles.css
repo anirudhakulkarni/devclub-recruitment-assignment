@@ -90,7 +90,7 @@ header{
 	
 	height: 69.2rem;
 	
-	background: url('images/hero/cover2.jpg');Z
+	background: url('images/hero/cover2.jpg');
 	margin-top: 4.4rem;
 	
 
@@ -191,6 +191,52 @@ header{
 }
 
 /*end*/
+.footer{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 -15rem;
+}
+.main-footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+	padding: .25em 0;
+	height: 10rem;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+
+.listelement{
+	font-size: 1.20rem;
+	color: rgb(252, 248, 240);
+	align-self: start;
+	align-content: centerS;
+	padding-bottom: 0.5rem;
+	transition: opacity .5s;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+
+}
+.listfoot{
+	font-size: 1.0rem;
+	color: #fff;
+	text-align: justify;
+	padding-bottom: 1rem;
+	transition: opacity .5s;
+}
 
 @media screen and (max-width: 1068p){
 	.iphone-11-pro{
@@ -215,13 +261,3 @@ header{
 		font-size: 2.4rem;
 		
 	}
-	.cta-link{}
-
-.video#bgVideo {
-	position:static ;
-	top: 0px;
-	left: 0px;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: -1; // Put the video behind all other elements
-   }
