@@ -59,10 +59,12 @@ header{
 }
 
 .nav-link-apple{
+	
+
+	background: url('images/icons/headphone.png') center;
+	background-size: 2.5rem;
 	width: 1.6rem;
 	height: 4.4rem;
-
-	background: url('images/icons/apple.svg') center;
 	background-repeat: no-repeat;
 	padding-top: .5rem;
 
