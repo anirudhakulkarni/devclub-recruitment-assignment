@@ -13,7 +13,13 @@ a{
     display: block;
     text-decoration: none;
 }
-
+body{
+	background-image: url(images/headphonestore.jpg);
+	background-repeat: no-repeat;
+	background-size:100% ;
+	background-size: cover;
+	opacity: 1;
+}
 .container{
 	max-width: 98rem;
 	margin: 0 auto;
@@ -206,7 +212,7 @@ header{
     color: rgb(255, 255, 255);
 	padding: 8.25em 0;
 	height: 10rem;
-	margin-top: 50rem;
+	margin-top: 0rem;
 
 }
 
@@ -298,6 +304,9 @@ animation-delay: 3s;
 font-size: 16px;
 }
 
+.button{
+	background-color: lawngreen;
+}
 
 @keyframes boxi{
 			from{
@@ -343,7 +352,7 @@ color: #363636;
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
-    color: #333;
+    color: rgb(226, 226, 226);
     text-align: center;
     font-size: 2.5em;
 }
@@ -358,7 +367,7 @@ color: #363636;
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color: #333;
+    color: rgb(226, 226, 226);
     margin-bottom: 15px;
 }
 
@@ -374,7 +383,7 @@ color: #363636;
 
 .shop-item-price {
     flex-grow: 1;
-    color: #333;
+    color: rgb(226, 226, 226);
 }
 
 .shop-items {
@@ -385,7 +394,7 @@ color: #363636;
 .cart-header {
     font-weight: bold;
     font-size: 1.25em;
-    color: #333;
+    color: rgb(226, 226, 226);
 }
 
 .cart-column {
@@ -408,7 +417,7 @@ color: #363636;
 .cart-price {
     width: 20%;
     font-size: 1.2em;
-    color: #333;
+    color: rgb(226, 226, 226);
 }
 
 .cart-quantity {
@@ -416,7 +425,7 @@ color: #363636;
 }
 
 .cart-item-title {
-    color: #333;
+    color: rgb(226, 226, 226);
     margin-left: .5em;
     font-size: 1.2em;
 }
@@ -445,7 +454,7 @@ color: #363636;
     border-radius: 5px;
     border: 1px solid #56CCF2;
     background-color: #eee;
-    color: #333;
+    color: rgb(226, 226, 226);
     padding: 0;
     text-align: center;
     font-size: 1.2em;
@@ -474,7 +483,7 @@ color: #363636;
 }
 
 .cart-total-price {
-    color: #333;
+    color: rgb(226, 226, 226);
     font-size: 1.1em;
 }
 
