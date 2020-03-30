@@ -111,12 +111,12 @@ header{
 
 }
 .title-heading{
-	font-size: 22.6rem;
+	font-size: 27.6rem;
 	line-height: 1.07143;
 	letter-spacing: -.005rem;
 	margin-top: -68rem;
 	opacity: 1;
-	margin-left: 50rem;
+	margin-left: 30rem;
 	z-index: 100;
 
 
@@ -129,17 +129,18 @@ header{
 
 	align-content: center;
 	width: 180rem;
-	height: 72rem;
-	z-index: 999;
+	height: 76rem;
+	z-index: -999;
 	opacity: 0.5;
 
   }
 .title-sub-heading{
-	font-size: 4.65rem;
+	font-size: 5.65rem;
 	line-height: 1.07143;
 	letter-spacing: .008rem;
 	font-weight: 400;
-	margin-left: 51rem;
+	margin-left: 31rem;
+	z-index: 100;
 	
 	
 	
@@ -153,21 +154,31 @@ header{
 
 .cta{
 	text-align: center;
-	margin-top: 1.8rem;	padding-top: 0rem;
-	padding-left: 30rem;
+		padding-top: 60rem;
+	padding-left: 0rem;
 
 }
 .cta-link{
-	color: #548ebd;
+	color: #ffffff;
 	font-size: 2rem;
+	padding: 2rem;
 	display: inline-block;
+	background-color: rgb(0, 49, 184);
+	cursor: pointer;
+}
+.cta-link:hover{
+	color: rgb(0, 49, 184);
+	font-size: 2rem;
+	padding: 2rem;
+	display: inline-block;
+	background-color:#fff;
+	border-width : 2px;
+	border-color:  rgb(0, 49, 184);
 }
 .cta-link:nth-child(2){
 	margin-left: 2.6rem;
 }
-.cta-link:hover{
-	border-bottom: 2px solid #548ebd;
-}
+
 
 /* iphone 11*/
 .iphone-11{
@@ -230,7 +241,7 @@ header{
     color: rgb(255, 255, 255);
 	padding: 8.25em 0;
 	height: 10rem;
-	margin-top: 50rem;
+	margin-top: 10rem;
 
 }
 
@@ -277,6 +288,7 @@ header{
 		background-repeat: no-repeat;
 		border-top: .6rem solid #fff;
 		border-bottom: .6rem solid #fff;
+		margin-top: 20rem;
 	
 }
 .box1{
@@ -300,7 +312,7 @@ header{
 .boxx{
 position: absolute;
 margin-left: 65rem;
-margin-top: 5rem;
+margin-top: 10rem;
 	animation-duration: 2s;
 	animation-fill-mode: forwards;
 text-align: center;
@@ -316,7 +328,12 @@ position: relative;
 color: white;
 font-size: 19px;
 animation-delay: 3s;
+font-weight: bold;
 
+}
+h2{
+	font-size: 10rem;
+	font-weight: normal;
 }
 .text{
 font-size: 16px;
