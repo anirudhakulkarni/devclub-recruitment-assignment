@@ -87,7 +87,7 @@ header{
 	padding-top: .5rem;
 
 }
-.iphone-11-pro{
+.product1{
 	
 	height: 69.2rem;
 	
@@ -97,7 +97,7 @@ header{
 
 }
 
-/* iphone 11 pro*/
+/* product1*/
 
 .title{
 	color: #fff;
@@ -146,10 +146,7 @@ header{
 	border-bottom: 2px solid #548ebd;
 }
 
-/* iphone 11*/
-.iphone-11{
-	background: url('images/hero/iphone-11/iphone_11_large.jpg');
-}
+
 
 .title-dark{
 	color: #000;
@@ -175,6 +172,7 @@ header{
 
 
 }
+/* this watch do not work:(   */
 
 
 
@@ -187,7 +185,7 @@ header{
 	border-top: .6rem solid #fff;
 	border-bottom: .6rem solid #fff;
 }
-.iphone-11-pro{
+.product1{
 	border-top: none;
 }
 
