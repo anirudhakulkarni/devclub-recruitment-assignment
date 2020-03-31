@@ -101,7 +101,7 @@ header{
 
 }
 
-/* iphone 11 pro*/
+
 
 .title{
 	color: #fff;
@@ -150,9 +150,7 @@ header{
 	border-bottom: 2px solid #548ebd;
 }
 
-/* iphone 11*/
-.iphone-11{
-	background: url('images/hero/iphone-11/iphone_11_large.jpg');
+
 }
 
 .title-dark{
