@@ -123,3 +123,7 @@ function check_if_in_view() {
   }
  /* $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');*/
+const selectElement = (element) =>document.querySelector(element);
+selectElement('.mobile-menu').addEventListener('click',() =>{
+    selectElement('header').classList.toggle('active');
+});
