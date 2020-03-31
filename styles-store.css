@@ -607,7 +607,7 @@ background-color: rgb(49, 238, 31);
 	}
 	.line{
 		position: absolute;
-		width: 1.7rem:
+		width: 1.7rem;
 		height:1px;
 		background-color: #fff;
 		transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12,0.96);
